@@ -16,3 +16,38 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.wrap {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#datetime-picker,
+.btn-start,
+.timer {
+  font-size: 30px;
+}
+
+#datetime-picker {
+  width: 350px;
+  margin-right: 30px;
+}
+
+.timer {
+  display: flex;
+  padding-top: 40px;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.value {
+  font-size: 60px;
+  color: red;
+}
